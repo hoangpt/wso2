@@ -1,0 +1,16 @@
+version: '3.9'
+
+services:
+  wso2is:
+    image: wso2/wso2is:7.0.0
+    container_name: wso2is
+    ports:
+      - "9444:9444"
+    volumes:
+      - ./conf/deployment.toml:/home/wso2carbon/wso2is-7.0.0/repository/conf/deployment.toml
+    healthcheck:
+      test: ["CMD", "nc", "-z", "localhost", "9444"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: always
