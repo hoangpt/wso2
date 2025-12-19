@@ -1,0 +1,31 @@
+
+> pizza-ui@0.0.0 test
+> vitest run
+
+
+[1m[46m RUN [49m[22m [36mv4.0.16 [39m[90mD:/Projects/wso2-training/pizza-ui[39m
+
+stderr | src/pages/__tests__/Menu.test.jsx > Menu Page > TC-008: should handle API error
+Failed to fetch menu: Error: API Error: 500
+    at fetchMenu (D:/Projects/wso2-training/pizza-ui/src/pages/Menu.jsx:24:27)
+
+stderr | src/pages/__tests__/Menu.test.jsx > Menu Page > TC-009: should handle network error
+Failed to fetch menu: Error: Network error
+    at D:/Projects/wso2-training/pizza-ui/src/pages/__tests__/Menu.test.jsx:136:37
+    at file:///D:/Projects/wso2-training/pizza-ui/node_modules/@vitest/runner/dist/index.js:145:11
+    at file:///D:/Projects/wso2-training/pizza-ui/node_modules/@vitest/runner/dist/index.js:915:26
+    at file:///D:/Projects/wso2-training/pizza-ui/node_modules/@vitest/runner/dist/index.js:1243:20
+    at new Promise (<anonymous>)
+    at runWithTimeout (file:///D:/Projects/wso2-training/pizza-ui/node_modules/@vitest/runner/dist/index.js:1209:10)
+    at file:///D:/Projects/wso2-training/pizza-ui/node_modules/@vitest/runner/dist/index.js:1653:37
+    at Traces.$ (file:///D:/Projects/wso2-training/pizza-ui/node_modules/vitest/dist/chunks/traces.U4xDYhzZ.js:115:27)
+    at trace (file:///D:/Projects/wso2-training/pizza-ui/node_modules/vitest/dist/chunks/test.B8ej_ZHS.js:239:21)
+    at runTest (file:///D:/Projects/wso2-training/pizza-ui/node_modules/@vitest/runner/dist/index.js:1653:12)
+
+ [32mΓ£ô[39m src/pages/__tests__/Menu.test.jsx [2m([22m[2m7 tests[22m[2m)[22m[33m 514[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m1 passed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[32m7 passed[39m[22m[90m (7)[39m
+[2m   Start at [22m 11:07:08
+[2m   Duration [22m 5.17s[2m (transform 266ms, setup 438ms, import 921ms, tests 514ms, environment 2.67s)[22m
+

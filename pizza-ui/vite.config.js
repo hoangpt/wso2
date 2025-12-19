@@ -7,10 +7,15 @@ export default defineConfig({
   server: {
     proxy: {
       '/pizzashack': {
-        target: 'https://localhost:8243',
+        target: 'https://4.194.199.196:8243',
         changeOrigin: true,
         secure: false,
       }
     }
+  },
+  test: {
+    globals: true,
+    environment: 'jsdom',
+    setupFiles: './src/setupTests.js',
   }
 })

@@ -1,0 +1,115 @@
+
+> pizza-ui@0.0.0 test
+> vitest run
+
+
+[1m[46m RUN [49m[22m [36mv4.0.16 [39m[90mD:/Projects/wso2-training/pizza-ui[39m
+
+ [31mΓ¥»[39m src/pages/__tests__/Menu.test.jsx [2m([22m[2m7 tests[22m[2m | [22m[31m7 failed[39m[2m)[22m[32m 16[2mms[22m[39m
+[31m     [31m├ù[31m TC-001: should display the correct title[39m[32m 6[2mms[22m[39m
+[31m     [31m├ù[31m TC-002: should render grid layout (check if pizzas are rendered)[39m[32m 2[2mms[22m[39m
+[31m     [31m├ù[31m TC-005: should display loading state initially[39m[32m 1[2mms[22m[39m
+[31m     [31m├ù[31m TC-006 & TC-007: should fetch and display data correctly[39m[32m 1[2mms[22m[39m
+[31m     [31m├ù[31m TC-008: should handle API error[39m[32m 1[2mms[22m[39m
+[31m     [31m├ù[31m TC-009: should handle network error[39m[32m 1[2mms[22m[39m
+[31m     [31m├ù[31m TC-010 & TC-011: should add item to cart when Add button is clicked[39m[32m 1[2mms[22m[39m
+
+ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ» Failed Tests 7 ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»
+
+ FAIL  src/pages/__tests__/Menu.test.jsx > Menu Page > TC-001: should display the correct title
+TypeError: Cannot read properties of undefined (reading 'Provider')
+ Γ¥» renderMenu src/pages/__tests__/Menu.test.jsx:27:22
+     25| const renderMenu = () => {
+     26|     return render(
+     27|         <CartContext.Provider value={{ addToCart: mockAddToCart }}>
+       |                      ^
+     28|             <Menu />
+     29|         </CartContext.Provider>
+ Γ¥» src/pages/__tests__/Menu.test.jsx:66:9
+
+ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[1/7]ΓÄ»
+
+ FAIL  src/pages/__tests__/Menu.test.jsx > Menu Page > TC-002: should render grid layout (check if pizzas are rendered)
+TypeError: Cannot read properties of undefined (reading 'Provider')
+ Γ¥» renderMenu src/pages/__tests__/Menu.test.jsx:27:22
+     25| const renderMenu = () => {
+     26|     return render(
+     27|         <CartContext.Provider value={{ addToCart: mockAddToCart }}>
+       |                      ^
+     28|             <Menu />
+     29|         </CartContext.Provider>
+ Γ¥» src/pages/__tests__/Menu.test.jsx:80:9
+
+ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[2/7]ΓÄ»
+
+ FAIL  src/pages/__tests__/Menu.test.jsx > Menu Page > TC-005: should display loading state initially
+TypeError: Cannot read properties of undefined (reading 'Provider')
+ Γ¥» renderMenu src/pages/__tests__/Menu.test.jsx:27:22
+     25| const renderMenu = () => {
+     26|     return render(
+     27|         <CartContext.Provider value={{ addToCart: mockAddToCart }}>
+       |                      ^
+     28|             <Menu />
+     29|         </CartContext.Provider>
+ Γ¥» src/pages/__tests__/Menu.test.jsx:95:9
+
+ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[3/7]ΓÄ»
+
+ FAIL  src/pages/__tests__/Menu.test.jsx > Menu Page > TC-006 & TC-007: should fetch and display data correctly
+TypeError: Cannot read properties of undefined (reading 'Provider')
+ Γ¥» renderMenu src/pages/__tests__/Menu.test.jsx:27:22
+     25| const renderMenu = () => {
+     26|     return render(
+     27|         <CartContext.Provider value={{ addToCart: mockAddToCart }}>
+       |                      ^
+     28|             <Menu />
+     29|         </CartContext.Provider>
+ Γ¥» src/pages/__tests__/Menu.test.jsx:111:9
+
+ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[4/7]ΓÄ»
+
+ FAIL  src/pages/__tests__/Menu.test.jsx > Menu Page > TC-008: should handle API error
+TypeError: Cannot read properties of undefined (reading 'Provider')
+ Γ¥» renderMenu src/pages/__tests__/Menu.test.jsx:27:22
+     25| const renderMenu = () => {
+     26|     return render(
+     27|         <CartContext.Provider value={{ addToCart: mockAddToCart }}>
+       |                      ^
+     28|             <Menu />
+     29|         </CartContext.Provider>
+ Γ¥» src/pages/__tests__/Menu.test.jsx:131:9
+
+ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[5/7]ΓÄ»
+
+ FAIL  src/pages/__tests__/Menu.test.jsx > Menu Page > TC-009: should handle network error
+TypeError: Cannot read properties of undefined (reading 'Provider')
+ Γ¥» renderMenu src/pages/__tests__/Menu.test.jsx:27:22
+     25| const renderMenu = () => {
+     26|     return render(
+     27|         <CartContext.Provider value={{ addToCart: mockAddToCart }}>
+       |                      ^
+     28|             <Menu />
+     29|         </CartContext.Provider>
+ Γ¥» src/pages/__tests__/Menu.test.jsx:141:9
+
+ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[6/7]ΓÄ»
+
+ FAIL  src/pages/__tests__/Menu.test.jsx > Menu Page > TC-010 & TC-011: should add item to cart when Add button is clicked
+TypeError: Cannot read properties of undefined (reading 'Provider')
+ Γ¥» renderMenu src/pages/__tests__/Menu.test.jsx:27:22
+     25| const renderMenu = () => {
+     26|     return render(
+     27|         <CartContext.Provider value={{ addToCart: mockAddToCart }}>
+       |                      ^
+     28|             <Menu />
+     29|         </CartContext.Provider>
+ Γ¥» src/pages/__tests__/Menu.test.jsx:155:9
+
+ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»ΓÄ»[7/7]ΓÄ»
+
+
+[2m Test Files [22m [1m[31m1 failed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[31m7 failed[39m[22m[90m (7)[39m
+[2m   Start at [22m 11:06:18
+[2m   Duration [22m 4.56s[2m (transform 318ms, setup 457ms, import 948ms, tests 16ms, environment 2.47s)[22m
+
